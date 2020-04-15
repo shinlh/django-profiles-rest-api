@@ -1,0 +1,8 @@
+iniciar virtual machine: vagrant up
+conectar ao servidor: vagrant ssh
+desconectar: exit
+
+conectar ao venv python: source ~/env/bin/activate
+desconectar: deactivate
+
+abrir django development server, dentro do venv: python manage.py runserver 0.0.0.0:8000
